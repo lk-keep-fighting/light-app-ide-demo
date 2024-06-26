@@ -1,0 +1,25 @@
+{
+  "mainTable": "lapp_menu",
+  "columns": [
+    {
+      "column": "key"
+    },
+    {
+      "column": "label"
+    },
+    {
+      "column": "pageId"
+    },
+    {
+      "column": "orderNo"
+    }
+  ],
+  "columnMap": {
+    "key": {
+      "storeColumn": "id"
+    },
+    "label": {
+      "storeColumn": "title"
+    }
+  }
+}

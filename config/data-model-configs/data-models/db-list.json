@@ -1,0 +1,1 @@
+{"aliasMap":{"tableMaps":[{"alias":"db-list","primaryKey":"id","table":"db-list"}]},"mainTable":"(SELECT SCHEMA_NAME as id,SCHEMA_NAME as dbName FROM INFORMATION_SCHEMA.SCHEMATA)"}
