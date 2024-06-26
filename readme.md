@@ -3,8 +3,7 @@
 用于产品MVP、轻量定制开发的快速响应，渐进式迭代。
 ![img.png](img.png)
 ## 使用demo项目快速开始
-- 创建数据库
-创建一个空数据库，在数据库中执行脚本[tableAndData.sql](tableAndData.sql)
+- 创建空的数据库，在数据库中执行脚本[tableAndData.sql](tableAndData.sql)
 - 修改application.yaml中的数据库链接、用户名和密码
 - 启动项目，访问[http://localhost:19000/lapp](http://localhost:19000/lapp)
 ## 相关资料
