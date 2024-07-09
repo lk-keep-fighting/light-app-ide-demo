@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lapp_demo?useUnicode=true&characterEncoding=gbk&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 12#$qwER
+logic:
+  config-dir: ./config/logic-configs
+  scan-package-names: com.aims.datamodel.sdk.service
+data-model:
+  config-dir: ./config/data-model-configs
+server:
+  port: 19000
+logging:
+  level:
+    com.aims.datamodel.sdk: info
+  file:
+    path: /logs
